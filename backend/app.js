@@ -1,8 +1,26 @@
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
+var mysql = require('mysql');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var conf = require('./config');
+
+global.glb_app_name = process.env.name;
+global.glb_sess_name = 'SESS_' + glb_app_name;
+global.glb_svr_ips = conf.ips;
+global.glb_db_nm = {};
+// DB connection pool set
+global.glb_pool = mysql.createPool({
+	connectionLimit : conf.db.connectionLimit,
+	host : glb_svr_ips.db,
+	port : conf.db.port,
+	user : conf.db.user,
+	password : conf.db.password,
+	database: conf.db.name,
+	multipleStatements: true
+});
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
