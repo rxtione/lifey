@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {margin:0; padding:0; border:0; outline:0; }
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+table {border-collapse:collapse;border-spacing:0;}
+
+body {background:#fff;color:#444;}
+body, input, textarea, select, button, table {font-family:'Roboto', 'Droid Sans', 'Apple SD Gothic Neo', 'Apple Gothic' , 'Noto Serif', 'serif',  'Helvetica', 'sans-serif';-webkit-text-size-adjust:none;}
+ul, ol, li {list-style-type:none;}
+a {color:#333333;text-decoration:none;}
+
+/* change border colour to suit your needs */
+input, select {vertical-align:middle;}
+
+
+@import url('https://fonts.googleapis.com/css?family=Cardo|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+/* font name - Noto Serif */
+@font-face {
+	font-family:'Noto Serif';
+	font-weight:400;
+	src:local('NotoSerifRegular'), url('fonts/NotoSerif-Regular.woff') format('woff');
+}
+@font-face {
+	font-family:'Noto Serif';
+	font-weight:700;
+	src:local('NotoSerifBold'), url('fonts/NotoSerif-Bold.woff') format('woff');
+}
+
+/* font name - Cardo */
+@font-face {
+	font-family:'Cardo';
+	font-weight:400;
+	src:local('CardoRegular'), url('fonts/Cardo-Regular.woff') format('woff');
+}
+@font-face {
+	font-family:'Cardo';
+	font-weight:800;
+	src:local('CardoBold'), url('fonts/Cardo-Bold.woff') format('woff');
+}
+
+.strong-font {font-family:'Noto Serif', serif;}

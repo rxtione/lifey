@@ -3,7 +3,7 @@
     <h1>영화 목록</h1>
     <div v-for="movie in movies" class="movie">
       <img v-bind:src="movie.poster" class="poster">
-      <div>
+      <div class="type-a05">
         <strong></strong>, <i></i> []
         <router-link :to="{ name: 'show', params: { id: movie.id }}">더보기</router-link>
       </div>
