@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* [단일] 찜한 상품 */
+.otherusers-productlist.mt4 {margin-top:4px;}
+
+/* [공통] 이벤트 상세 & 기획전 상세 */
+.event-det-tit {padding:0 16px 20px;border-bottom:1px solid #f2f2f2;}
+.event-det-tit .event-det-bnr {display:block;margin:0 -16px;}
+.event-det-tit .title {margin-top:20px;font-size:16px;}
+.event-det-tit .date {display:block;margin-top:10px;color:#999;font-size:16px;}
+.event-det-tit .event-det-bnr img {width:100%;}
+
+/* [단일] 이벤트 상세 */
+.event-det-cont img {width:100%;}
+.event-det-cont {margin-top:10px;}
+.event-part {padding:20px 16px 0;}
+.event-part .sub-tit {font-size:16px;}
+.event-part .event-login {padding:40px 0;margin:20px -16px 0;border:1px solid #f3f3f3;border-width:1px 0;background:#fafafa;color:#888;font-size:14px;text-align:center;}
+.event-part .event-login.end {color:#ddd;}
+.event-part .event-login button {width:auto;margin-top:20px;}
+.event-comment {margin-top:20px;}
+.event-comment .textarea-btm {margin-top:15px;zoom:1;}
+.event-comment .textarea-btm:after {content:"";display:block;clear:both;}
+.event-comment .textarea-btm .text-number {float:left;margin-top:10px;color:#999;font-size:11px;}
+.event-comment .textarea-btm .text-number strong {color:#f95e82;font-weight:normal;}
+.event-comment .textarea-btm button {float:right;width:auto;}
+.event-part .reply-list li {padding:30px 0;border-bottom:1px solid #f3f3f3;}
+.event-part .reply-list li .title {display:block;color:#333;font-size:12px;line-height:16px;}
+.event-part .reply-list li .info {display:block;margin-top:10px;color:#999;font-size:11px;}
+.event-part .reply-list li .info em {margin-left:12px;font-style:normal;}
+.event-part .reply-list li .info em:first-child {margin-left:0;}
